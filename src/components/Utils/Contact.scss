@@ -1,0 +1,46 @@
+.h1_contact {
+  text-align: center;
+  color: #FF9616;
+  margin: 1rem auto;
+  width: 90%;
+ 
+}
+.cf {
+  text-align: center;
+  margin: 3rem auto;
+  width: 90%;
+}
+.input_contact ,
+textarea {
+  border: 0;
+  outline: 0;
+  padding: 1em;
+  border-radius: 8px;
+  display: block;
+  width: 100%;
+  margin-top: 1em;
+  font-family: 'Merriweather', sans-serif;
+  resize: none;
+  background-color: #F5F5F5;
+}
+#input_contact_submit {
+  color: white;
+  background: #ff9616c0;
+  cursor: pointer;
+}
+#input_contact_submit:hover {
+  box-shadow: 0 2px 2px 2px rgba(0, 0, 0, 0.2);
+}
+textarea {
+  height: 126px;
+}
+.top {
+  width: 95%;
+  margin-bottom: 1em;
+}
+.bottom {
+  width: 95%;
+  margin-bottom: 3rem;
+}
+
+

@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Grand+Hotel&display=swap');
+$base-color: rgb(255, 150, 22);
+header{
+  background: white;
+  padding-bottom: .01rem;
+  box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.5) ;
+  position: sticky;
+  top: 0;
+  z-index: 300;
+}
+.first_row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1rem;
+  color: $base-color;
+  i{
+    font-size: 3rem;
+    cursor: pointer;
+  } 
+  .bx-menu {
+    border-right: 2px solid rgba(0, 0, 0, .2);
+  }
+  
+  .empty-bx {
+    width: calc(3rem + 2px);
+  }
+
+  a:-webkit-any-link {
+    text-decoration-color: $base-color;
+  }
+
+  .header_logo {
+    display: flex;
+    align-items: center;
+    img {
+      height: 4rem;
+      cursor: pointer;
+    }
+    h1 {
+      font-weight: 400;
+      font-family: 'Grand Hotel', cursive;
+      font-size: 2.5rem;
+      color: $base-color;
+    }
+  }
+
+  .connexion{
+    cursor: pointer;
+    padding: 0 .3rem;
+    border-radius: 1.5rem;
+    background: $base-color;
+    color: white;
+    display: flex;
+    align-items: center;
+    span{
+      font-size: 1.3rem;
+    }
+    &:hover{
+      box-shadow: 0 0 8px $base-color;
+    }
+  }
+  
+}
+
+.search_bare {
+  margin: .5rem 1rem;
+  border: solid black 1px;
+  display: flex;
+  align-items: center;
+  border-radius: 1rem;
+  input {
+    border: none;
+    outline: none;
+    width: calc(90% - 2rem);
+    background: inherit;
+  }
+  i{
+    font-size: 2rem;
+    cursor: pointer;
+  }
+  .bx-search{
+    color: $base-color;
+  }
+}
+
+@media(max-width: 751px){
+  .bxs-user {
+    border-left: 2px solid rgba(0, 0, 0, .2);
+  }
+  .bx-user {
+    background: linear-gradient(to left top, transparent 46%, currentColor 48%, currentColor 52%, transparent 54%);
+    border-left: 2px solid rgba(0, 0, 0, .2);
+  }
+}
+
+@media (min-width: 752px){
+  .search_bare{
+    flex: .8;
+  }
+}

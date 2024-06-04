@@ -1,0 +1,252 @@
+.title_infos{
+  text-align: center;
+  color:#FF9616 ;
+  font-family: 'Grand Hotel', cursive;
+  font-weight: 300;
+  font-size: 3.5rem;
+}
+
+.title-user{
+  text-align: center;
+  color:#ff961698 ;
+  font-family: 'Grand Hotel', cursive;
+  font-weight: 300;
+  font-size: 2rem;
+
+}
+
+.infos{
+  
+	background: #fff;
+	border-radius: 6px;
+	padding: 20px;
+	padding-top: 30px;
+	width: 84%;
+  height: 45vh;
+  margin: 3rem auto;
+	box-shadow: 15px 15px 0px rgba(0, 0, 0, .1);
+  border-top:solid 1px #cccccc54;
+  border-left: solid 1px #cccccc54;
+display: flex;
+flex-direction: column;
+justify-content: center;
+
+  
+ 
+  
+  p{
+    
+    width: 100%;
+  background: #f5f5f5;
+  border: 0;
+  padding: 20px;
+  border-radius: 6px;
+  border: 1px solid #eee;
+  font-size: 100%;
+  margin: 2rem auto;
+  font-weight: 400;
+  text-align: center;
+
+  }
+
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+
+}
+
+.change_password {
+	background: #fff;
+	border-radius: 6px;
+	padding: 20px;
+	padding-top: 30px;
+	width: 84%;
+  height: 48vh;
+	margin: 1rem 1rem;
+  margin: auto;
+	box-shadow: 15px 15px 0px rgba(0, 0, 0, .1);
+  border-top:solid 1px #cccccc54;
+  border-left: solid 1px #cccccc54;
+ 
+ 
+
+
+input:focus, textarea:focus {
+  outline: none;
+}
+
+.title_password {
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #ccc;
+  margin-bottom: 24px;
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  
+}
+
+input {
+  width: 100%;
+  background: #f5f5f5;
+  border: 0;
+  padding: 20px;
+  border-radius: 6px;
+  margin-bottom: 1rem;
+  border: 1px solid #eee;
+}
+
+.button_change_password{
+  text-align: center;
+  padding-top: .8rem;
+  
+}
+.btn-change {
+  height: 2.8rem;
+  width: 7rem;
+  cursor: pointer;
+  font-size: .6rem;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  color: #f0f0f0;
+  border-radius: 10px;
+  border-bottom: 4px solid #777;
+  box-shadow: 6px 6px 6px #999;
+  user-select: none;
+  background: #cfc0bf;
+  transition: background 0.05s linear;
+  transition: all .05s linear;
+}
+
+.register_btn:active {
+  box-shadow: 2px 2px 2px #777;
+  border-bottom: 1px solid #777b;
+  transform: translateY(3px);
+}
+
+}
+
+
+.change_username {
+	background: #fff;
+	border-radius: 6px;
+	padding: 20px;
+	padding-top: 30px;
+	width: 84%;
+  height: 45vh;
+	margin: 1rem 1rem;
+  margin: 2rem auto;
+	box-shadow: 15px 15px 0px rgba(0, 0, 0, .1);
+  border-top:solid 1px #cccccc54;
+  border-left: solid 1px #cccccc54;
+ 
+ 
+
+
+input:focus, textarea:focus {
+  outline: none;
+}
+
+.title_username {
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #ccc;
+  margin-bottom: 24px;
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  
+}
+
+input {
+  width: 100%;
+  background: #f5f5f5;
+  border: 0;
+  padding: 20px;
+  border-radius: 6px;
+  margin-top: 2rem;
+  margin-bottom: 2.5rem;
+  border: 1px solid #eee;
+}
+
+.button_change_username{
+  text-align: center;
+  padding-top: .8rem;
+  
+}
+.btn-change {
+  height: 2.8rem;
+  width: 7rem;
+  cursor: pointer;
+  font-size: .6rem;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  color: #f0f0f0;
+  border-radius: 10px;
+  border-bottom: 4px solid #777;
+  box-shadow: 6px 6px 6px #999;
+  user-select: none;
+  background: #cfc0bf;
+  transition: background 0.05s linear;
+  transition: all .05s linear;
+}
+
+.register_btn:active {
+  box-shadow: 2px 2px 2px #777;
+  border-bottom: 1px solid #777b;
+  transform: translateY(3px);
+}
+
+}
+
+
+
+
+@media(min-width: 425px){
+  
+.infos{
+  width: 80%;
+  margin: 3rem auto;
+  margin-bottom: 3rem;
+
+}
+
+.change_password{
+    width: 80%;
+    margin: auto;
+    margin-bottom: 3rem;
+}
+
+.change_username{
+  width: 80%;
+  margin:  auto;
+  margin-bottom: 3rem;
+}
+
+}
+
+@media(min-width: 752px){
+
+  .parent{
+    display: flex;
+    flex-direction: row;
+ 
+  }
+  
+  .change_password{
+    width: 45%;
+   
+   }
+
+   .change_username{
+    width: 45%;
+    height: 48vh;
+    
+  }
+  
+
+}

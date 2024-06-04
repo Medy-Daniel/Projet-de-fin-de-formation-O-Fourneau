@@ -1,0 +1,30 @@
+.container {
+  flex-direction: column;
+  .title_recettes, 
+  .link_ajoutRecette{
+    text-align: center;
+    color:#FF9616 ;
+    font-family: 'Grand Hotel', cursive;
+    font-weight: 300;
+    font-size: 3.5rem;
+    margin-bottom: 2rem;
+  }
+
+  .link_ajoutRecette{
+    font-size: 2rem;
+    display:flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+  }
+
+  .recettes{
+    display: flex;
+    flex-wrap: wrap;
+    gap: .3rem;
+  }
+  h2{
+    cursor: pointer;
+  }
+}
+
+  

@@ -1,0 +1,89 @@
+.register_form{
+	background: #fff;
+	border-radius: 6px;
+	padding: 20px;
+	padding-top: 30px;
+	width: 88%;
+	margin: 50px auto;
+  margin-top: 2rem;
+	box-shadow: 15px 15px 0px rgba(0, 0, 0, .1);
+  border-top:solid 1px #cccccc54;
+  border-left: solid 1px #cccccc54;
+
+  input:focus, textarea:focus {
+    outline: none;
+  }
+
+  .title {
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #ccc;
+    margin-bottom: 24px;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    
+  }
+
+  input {
+    width: 100%;
+    background: #f5f5f5;
+    border: 0;
+    padding: 20px;
+    border-radius: 6px;
+    margin-bottom: 1rem;
+    border: 1px solid #eee;
+  }
+
+  .btn_parent_register{
+    text-align: center;
+    padding-top: .8rem;
+    
+  }
+  .register_btn {
+    height: 2.8rem;
+    width: 7rem;
+    cursor: pointer;
+    font-size: .7rem;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: #f0f0f0;
+    border-radius: 10px;
+    border-bottom: 4px solid #777;
+    box-shadow: 6px 6px 6px #999;
+    user-select: none;
+    background: #cfc0bf;
+    transition: background 0.05s linear;
+    transition: all .05s linear;
+  }
+  
+  .register_btn:active {
+    box-shadow: 2px 2px 2px #777;
+    border-bottom: 1px solid #777b;
+    transform: translateY(3px);
+  }
+}
+
+
+
+
+
+@media(min-width: 425px){
+  .register_form{
+ 
+    width: 88%;  
+  }
+
+}
+
+@media(min-width: 752px){
+
+.register_form{
+  
+  width: 95%;
+	
+}
+
+}
+

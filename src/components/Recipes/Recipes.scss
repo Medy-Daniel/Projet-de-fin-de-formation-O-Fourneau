@@ -1,0 +1,50 @@
+.recipes_category {
+  text-align: center;
+  .recipes_head{
+    display: flex;
+    align-items: center;
+    h3{
+      flex: 1;
+      text-align: center;
+      margin-bottom: .5rem;
+      color: rgb(255, 150, 22); 
+      font-size: 3rem;
+      font-family: 'Grand Hotel', cursive;
+      font-weight: 400;
+    }
+    .recipes_filter{
+      display: flex;
+      align-items: center;
+      gap: .5rem;
+      flex: .2;
+    }
+    .recipes_searched{
+      margin-bottom: .5rem;
+
+      .recipes_searched-remove{
+        display: flex;
+        gap: .2rem;
+        padding: .5rem;
+        color: white;
+        background: rgba(255, 150, 22,1);
+        border-radius: 1rem;
+        i{
+          cursor: pointer;
+          font-size: 1.5rem;
+        }
+      }
+    }
+  }
+}
+.recipes_main {
+  display: flex;
+  flex-wrap: wrap;  
+}
+
+
+
+@media (min-width: 400px){
+  .recipes_main{
+    gap: .3rem;
+  }
+}

@@ -1,0 +1,86 @@
+.title_aPropos{
+  text-align: center;
+  margin: 20px 0;
+  font-size: 200%;
+  font-weight: 600;
+  color: #FF9616;
+
+}
+
+.small_title_aPropos{
+  text-align: left;
+  margin: 20px 0;
+  font-size: 120%;
+  font-weight: 600;
+  color: #FF9616;
+
+}
+
+.container_contact {
+ 
+  display: flex;
+flex-direction: column;
+  align-items: center;
+  
+}
+.container_contact .card_contact {
+  width: calc(80% - 10px); 
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 30px;
+  border-radius: 5px;
+}
+
+.container_contact .card_contact .image {
+  margin: 10px 0;
+  height: 150px;
+  width: 150px;
+  background: #FF9616;
+  padding: 3px;
+  border-radius: 50%;
+}
+.card_contact .image img {
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid #fff;
+}
+.card_contact p {
+  text-align: justify;
+  margin-top: 8px;
+  font-size: 100%;
+  font-weight: 400;
+}
+.card_contact .name {
+  margin: 10px 0 3px 0;
+  color: #FF9616;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+
+@media (min-width: 425px) {
+  .container_contact .card_contact {
+    width: calc(55% - 10px);
+    margin-bottom: 20px;
+  }
+}
+@media (min-width: 752px) {
+  .container_contact{
+    display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  
+  
+  .card_contact {
+   
+    width: calc(50% - 10px);
+    
+
+  }
+}
+}

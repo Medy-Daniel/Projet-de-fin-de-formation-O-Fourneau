@@ -1,0 +1,82 @@
+.main-user {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: rgba($color: #f7d6b2, $alpha: 0.3);
+  backdrop-filter: blur(3px);
+  border-radius: 0.5rem 0 0 0.5rem;
+  width: 75%;
+  max-width: 320px;
+  transition: 0.3s;
+  white-space: nowrap;
+  overflow: hidden;
+
+  .sub-user {
+    margin: 0 0.5rem;
+
+    form {
+      display: flex;
+      flex-direction: column;
+
+      .button_login {
+        display: flex;
+        justify-content: center;
+        padding-right: 1rem;
+        background-color: #44393900;
+        margin: 0.5rem 4rem;
+        padding: 2%;
+        border-radius: 0.5rem;
+        font-size: 1.2rem;
+
+        i {
+          padding-right: 0.2rem;
+          color: #f4e7e7;
+          font-size: 1.1rem;
+        }
+      }
+    }
+    input {
+      margin-bottom: 1rem;
+      width: 98%;
+      border-radius: 0.5rem;
+    }
+  }
+
+  i {
+    text-align: right;
+    font-size: 3rem;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 1rem;
+
+    // margin top pour la croix de fermeture
+    margin-top: 0.5rem;
+
+    &.bx-empty {
+      padding: 0;
+      display: block;
+      height: 3rem;
+    }
+  }
+
+  &.hidden {
+    width: 0;
+  }
+}
+
+.password_link {
+  margin: 1rem 0.5rem;
+}
+
+.register_link {
+  margin: 1rem 0.5rem;
+}
+
+.error-message{
+  color: red;
+}
+@media (min-width: 752px){
+  .main-user{
+    background: #f7d6b2;;
+  }
+}

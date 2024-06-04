@@ -1,0 +1,170 @@
+.recipe_body{
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  .recipe_header{
+    width: 100%;
+    position: sticky;
+    top: 7.11rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: white;
+    i{
+      font-size: 2rem;
+      color: rgb(240, 30, 100);
+    }
+  }
+  .recipe_first_row{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: .5rem 0;
+    i{
+      font-size: 1.3rem;
+      color: rgb(255, 150, 22);
+    }
+    .recipe-comment-countbox{
+      border: solid 1px black;
+      box-shadow: 0 0 2px black;
+      padding: .1rem;
+      cursor: pointer;
+    }
+  }
+  img{
+    width: 85%;
+    border-radius: 1rem;
+  }
+  fieldset{
+    width: 80%;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    border-radius: .5rem;
+  }
+  .description{
+    font-size: .9rem;
+  }
+  .comment_section{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    gap: .8rem;
+    .comment_card{
+      box-shadow: 0 0 3px;
+      border-radius: .5rem;
+      padding: .3rem;
+      .comment_header{
+        display: flex;
+        justify-content: space-evenly;
+        .comment_writter{
+          color: #4d5964;
+        }
+      }
+    }
+    .comment_button_container{
+      display: flex;
+      gap: 2rem;
+      align-items: center;
+    }
+    .comment_button_container_edit{
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+    }
+    .comment_button{
+      cursor: pointer;
+      margin-top: .5rem;
+      padding: .5rem;
+      border: solid 2px black;
+      width: fit-content;
+      border-radius: .5rem;
+      box-shadow: 3px 3px 6px ;
+      -webkit-touch-callout: none;
+      -webkit-user-select: none;
+      -khtml-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+      &:active{
+        box-shadow: 0 0 1px;
+      }
+      &:hover{
+        background: rgb(228, 225, 225);
+      }
+    }
+    .comment_form{
+      border: solid 1px;
+      padding: .5rem;
+      border-radius: .5rem;
+      textarea{
+        width: 100%;
+        resize: none;
+        height: 5rem;
+      }
+      input {
+        width: 2rem;
+      }
+    }
+  }
+  .ingredient-list{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    .ingredient-row{
+      display: flex;
+      gap: 1rem;
+      align-items: center;
+      box-shadow: 0 0 4px;
+      padding: .2rem;
+      border-radius: .5rem;
+      .ingredient-quantity{
+        width: 40%;
+        text-align: center;
+        color: #6F5E53;
+      }
+      .ingredient-name{
+        background:  #F7B32B;
+        padding: .3rem;
+        border-radius: 1rem;
+        color:  #6F5E53;
+        flex: 1;
+        text-align: center;
+      }
+    }
+  }
+  .ustensile-list{
+    display: flex;
+    flex-wrap: wrap;
+    gap: .5rem;
+    .ustensile{
+      background:  #F39C6B;
+      color: #EEF4ED;
+      padding: .3rem;
+      border-radius: 1rem;
+    }
+  }
+  .preparation{
+    flex-direction: column;
+    .preparation-card{
+      padding: .5rem;
+      margin: .5rem;
+      border: solid 1px;
+      box-shadow: 0 0 4px;
+      border-radius: .2rem;
+    }
+    .preparation-step{
+      font-weight: bold;
+    }
+  }
+}
+
+@media (min-width: 752px) {
+  .recipe_body .recipe_header{
+    position: sticky;
+    top: 8.2rem;
+  }
+}
